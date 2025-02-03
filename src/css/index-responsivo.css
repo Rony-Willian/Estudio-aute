@@ -1,0 +1,305 @@
+@media(max-width: 1380px) {
+
+
+    .menu {
+        margin-top: 60px;
+        margin-left: 110px;
+    }
+    
+    .menu .logo {
+        width: 140px;
+    }
+    
+    .menu .option li {
+        padding-left: 100px;
+    }
+    
+    .menu .option li a {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+
+
+
+    .home {
+        margin-top: 100px;
+        margin-left: 110px;
+    }
+    
+    .home .empresas p {
+        font-size: 28px;
+        font-weight: 300;
+    }
+    
+    .home .info-principal {
+        padding-left: 130px;
+    }
+    
+    .home .info-principal h1 {
+        font-size: 74px;
+        font-weight: 400;
+        line-height: 74px;
+        width: 665px;
+        
+    }
+    
+    .home .info-principal p {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 24px;
+        width: 450px;
+        padding-top: 20px;
+    }
+    
+    .home .empresas .fa-arrow-down {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+
+
+
+
+    .nossos-cases {
+        margin-left: 110px;
+    }
+    
+    .nossos-cases .title-2 h2 {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+        width: 400px;
+        padding-bottom: 5px;
+        padding-right: 70px;
+        margin-bottom: 30px;
+    }
+    
+    .nossos-cases .title-2 .fa-arrow-circle-down {
+        font-size: 38px;
+        height: 38px;
+        transform: translate(-45px, 80px);
+    }
+    
+    .case img {
+        width: 753px;
+        height: 100%;
+        border-radius: 30px;
+    }
+    
+    .case .info {
+        margin-left: 30px;
+    }
+    
+    .case .info p {
+        font-size: 16px;
+        margin-top: 45px;
+    }
+    
+    .case .info h3{
+        font-size: 35px;
+        width: 220px;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+    
+    .case .info .fa-circle-arrow-right {
+        margin-bottom: 40px;
+        font-size: 43px;
+    }
+
+
+
+    
+    .roda-pe {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        width: 1031px;
+        font-size: 20px;
+        padding-top: 20px;
+        margin-left: 110px;
+    }
+    
+    .roda-pe p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+        width: 500px;
+    }
+    
+    .roda-pe span { 
+        font-size: 18px;
+        font-weight: 300;
+        width: 345px;
+    }
+
+
+
+
+    .metodologia {
+        margin-left: 110px;
+    }
+    
+    .metodologia h4 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 37.74px;
+        width: 382px;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    
+    .metodologia .info-metod {
+        padding-top: 10px;
+    }
+    
+    .metodologia .itens .title h3 {
+        width: 631px;
+        font-size: 37px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        padding-right: 120px;
+        padding-bottom: 4px;
+    }
+    
+    .metodologia .title .fa-circle-arrow-down {
+        font-size: 34px;
+        height: 34px;
+        transform: translate(-43px, 40px);
+    }
+    
+    .metodologia .itens p {
+        font-size: 24px;
+        line-height: 32.43px;
+        width: 780px;
+    }
+    
+
+
+    .foto {
+        margin-top: 150px;
+        width: 1280px;
+        height: 420px;
+        background-position-y: -90px;
+        background-size: 1280px;
+    }
+
+
+
+
+    .inicio {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: 110px;
+    }
+    
+    .inicio .anos p {
+        font-size: 24px;
+    }
+    
+    .inicio .tempo p {
+        font-size: 171px;
+        margin-bottom: -55px;
+    }
+    
+    .inicio .tempo span {
+        font-size: 50px;
+    }
+    
+    .inicio .info-inicio .texto {
+        width: 504.5px;
+        font-size: 21px;
+        line-height: 32.46px;
+        padding-left: 100px;
+        padding-top: 60px;
+    }
+
+
+
+
+    .contato {
+        width: 950px;
+        height: 490px;
+        border-radius: 40px;
+        margin-left: 170px;
+        margin-bottom: 200px;
+    }
+    
+    .contato .cont-info {
+        padding: 53px 53px 15px 53px;
+    }
+
+    .contato .cont-info .chamada img {
+        width: 98px;
+    }
+    
+    .contato .cont-info .chamada p{
+        font-size: 62px;
+        width: 530px;
+        padding-top: 30px;
+        line-height: 40px;
+    }
+    
+    .contato .cont-info .chamada p span {
+        font-size: 62px;
+    } 
+    
+    .contato .cont-info .elen-contato {
+        padding-top: 55px;
+    }
+    
+    .contato .cont-info .elen-contato .img {
+        border-radius: 50%;
+        width: 68px;
+        height: 68px;
+        background-position-y: -6px;
+        background-position-x: -15px;
+        background-size: 85px;
+    }
+    
+    .contato .cont-info .elen-contato a {
+        font-size: 31px;
+        margin-left: 15px;
+        border-bottom: 2px solid #ffffff;
+        width: 240px;
+        line-height: 30px;
+    }
+    
+    .contato .cont-info span {
+        font-size: 10px;
+        padding-top: 90px;
+    }
+    
+    .contato .cont-info .email {
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+    
+    .contato .cont-info .email p {
+        font-size: 18px;
+        width: 80px;
+        line-height: 15px;
+    }
+    
+    .contato .cont-info .email a {
+        font-size: 17px;
+        padding-top: 5px;
+    }
+
+    .contato .cont-info .botao {
+        margin-top: 130px;
+        margin-left: 15px;
+    }
+    
+    .contato .cont-info .botao .fa-circle-arrow-right {
+        font-size: 17px;
+        left: 35px;
+    }
+    
+    .contato .cont-info .botao a {
+        font-size: 20px;
+        padding: 14px 54px;
+        border-radius: 17px;
+    }
+}
