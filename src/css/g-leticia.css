@@ -128,6 +128,7 @@ html {
 
 .album-1 {
     display: flex;
+    margin-top: 150px;
     margin-left: 80px;
     gap: 20px;
 }
