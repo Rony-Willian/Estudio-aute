@@ -26,7 +26,7 @@ html {
 .menu {
     display: flex;
     margin-top: 78px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .menu .logo {
@@ -47,7 +47,7 @@ html {
 
 .menu .option li a {
     color: #ffffff;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -62,12 +62,15 @@ html {
 .home {
     margin-top: 150px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
-.home .empresas p {
+.home .empresas a {
     font-size: 36px;
     font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 .home .info-principal {
@@ -101,7 +104,7 @@ html {
 .nossos-cases {
     width: 1300px;
     padding-top: 120px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .nossos-cases .title-2 {
@@ -177,12 +180,18 @@ html {
     background-color: #ffffff;
     border-radius: 50%;
     font-size: 49.35px;
+    cursor: pointer;
 }
 
 .case .info .fa-circle-arrow-right:active {
     color: #ffffff;
     background: #305973;
     border-radius: 50%;
+}
+
+.case .info .fa-circle-arrow-right:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 
@@ -196,7 +205,7 @@ html {
     font-size: 20px;
     border-top: 1px solid #ffffff;
     padding-top: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .roda-pe p {
@@ -218,7 +227,7 @@ html {
 
 
 .metodologia {
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .metodologia h4 {
@@ -287,7 +296,7 @@ html {
 .inicio {
     margin-top: 150px;
     margin-bottom: 150px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .inicio .anos p {
@@ -335,7 +344,7 @@ html {
     height: 699px;
     border-radius: 55px;
     margin-bottom: 100px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .contato .cont-info {
@@ -427,14 +436,10 @@ html {
 }
 
 .contato .cont-info .botao .fa-circle-arrow-right {
-    font-size: 27px;
+    font-size: 26px;
     align-items: center;
-    position: relative;
-    left: 50px;
-}
-
-.contato .cont-info .botao .fa-circle-arrow-right:active {
-    color: #5B917C;
+    transform: translateX(47px);
+    cursor: pointer;
 }
 
 .contato .cont-info .botao a {

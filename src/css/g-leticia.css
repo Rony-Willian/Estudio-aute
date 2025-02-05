@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'DegularDemo';
+    src: url(../fonts/fonnts.com-DegularDemo-Regular.otf);    
+}
+
+@font-face {
+    font-family: 'DegularDemo BoldItalic';
+    src: url(../fonts/fonnts.com-DegularDemo-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'DegularDemo Bold';
+    src: url(../fonts/fonnts.com-DegularDemo-Bold.otf);
+}
+
+html {
+    font-family: 'DegularDemo';
+    background: #1B1B1B;
+    color: #ffffff;
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+
+.menu {
+    display: flex;
+    margin-top: 78px;
+    margin-left: 80px;
+}
+
+.menu .logo {
+    width: 170px;
+}
+
+.menu .logo img {
+    width: 100%;
+}
+
+.menu .option {
+    display: flex;
+}
+
+.menu .option li {
+    padding-left: 164px;
+}
+
+.menu .option li a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu .option li .ativo {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+
+.home {
+    margin-top: 150px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.home .empresas a {
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .empresas a.ativo-e {
+    border-bottom: 2px solid #ffffff;
+}
+
+.home .info-principal {
+    padding-left: 150px;
+}
+
+.home .info-principal h1 {
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 96px;
+    width: 863px;
+    padding-bottom: 50px;
+}
+
+.home .info-principal .apresentacao {
+    padding-bottom: 40px;
+}
+
+.home .info-principal .apresentacao p {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 580px;
+    padding-bottom: 5px;
+}
+
+.home .info-principal .apresentacao p span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.home .info-principal .descricao {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.85px;
+    color: #7B7B7B;
+    border-top: 1px solid #ffffff;
+    padding-top: 30px;
+    width: 1050px;
+}
+
+.home .empresas .fa-arrow-down {
+    font-size: 52.5px;
+    margin-top: 70px;
+    transform: rotate(-45deg);
+}
+
+
+
+
+.album-1 {
+    display: flex;
+    margin-left: 80px;
+    gap: 20px;
+}
+
+.album-1 .img-lateral {
+    width: 515.25px;
+    height: 916px;
+    border-radius: 58px;
+}
+
+.album-1 .img-agrupada {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.album-1 .img-agrupada .img {
+    width: 451px;
+    height: 451px;
+    border-radius: 41px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.album-1 .img-agrupada .img.flyer {
+    background-image: url(../images/flyer-a4-2.png);
+    background-size: 601px;
+}
+
+.album-1 .img-agrupada .img.folhas {
+    background-image: url(../images/folhas-a4-1.jpg);
+    background-size: 651px;
+}
+
+.album-1 .img-agrupada .img.logo-parede {
+    background-image: url(../images/logo-na-parede-branca-1.jpg);
+    background-size: 701px;
+}
+
+.album-1 .img-agrupada .img.business {
+    background-image: url(../images/VERTICAL-BUSINESS.jpg);
+    background-size: 701px;
+}
+
+
+.foto {
+    margin-top: 30px;
+    width: 1728px;
+    height: 566px;
+    background-repeat: no-repeat;
+    background-image: url(../images/abd638a30a5336ffd9e3872790947aa5.jpg);
+    background-position-y: -325px;
+    background-size: 1728px;
+}
+
+.album-2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+    gap: 20px;
+}
+
+.album-2 .img-left {
+    width: 515.25px;
+    height: 916px; 
+    border-radius: 58px;
+    background-image: url(../images/logo-prensado.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -425px;
+    background-size: 1380px;
+}
+
+.album-2 .img-right {
+    width: 927px;
+    height: 916px;
+    border-radius: 41px;
+    background-image: url(../images/cosmetico.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1850px;
+}
+
+.inicio {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 80px;
+}
+
+.inicio .anos p {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42.46px;
+    color: #7B7B7B;
+}
+
+.inicio .anos span {
+    color: #ffffff;
+}
+
+.inicio .tempo p {
+    font-size: 220px;
+    font-weight: 700;
+    margin-bottom: -70px;
+}
+
+.inicio .tempo span {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.inicio .info-inicio {
+    display: flex;
+}
+
+.inicio .info-inicio .texto {
+    width: 672.5px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42.46px;
+    padding-left: 200px;
+    padding-top: 90px;
+}
+
+
+
+.contato {
+    display: flex;
+    justify-content: center;
+    background: #1F2225;
+    width: 1368px;
+    height: 699px;
+    border-radius: 55px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
+.contato .cont-info {
+    display: flex;
+    padding: 67px 67px 25px 67px;
+    color: #ffffff;
+    flex-flow: column wrap;
+}
+
+.contato .cont-info .chamada img {
+    width: 126px;
+}
+
+.contato .cont-info .chamada p{
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 90px;
+    width: 786px;
+    padding-top: 50px;
+}
+
+.contato .cont-info .chamada p span {
+    font-family: 'DegularDemo BoldItalic';
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+} 
+
+.contato .cont-info .elen-contato {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.contato .cont-info .elen-contato .img {
+    width: 98px;
+    height: 98px;
+    background-image: url(../images/a15b5389756152a40b1a578d7c774e96.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -10px;
+    background-position-x: -28px;
+    background-size: 130px;
+    border-radius: 50%;
+}
+
+.contato .cont-info .elen-contato a {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #ffffff;
+    width: 370px;
+}
+
+.contato .cont-info span {
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 130px;
+}
+
+.contato .cont-info .email {
+    width: 292px;
+    margin-top: 110px;
+    margin-left: 86px;
+}
+
+.contato .cont-info .email p {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 24px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+    width: 117px;
+    margin-bottom: 10px;
+}
+
+.contato .cont-info .email a {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.contato .cont-info .botao {
+    margin-top: 190px;
+    margin-left: 60px;
+}
+
+.contato .cont-info .botao .fa-circle-arrow-right {
+    font-size: 26px;
+    align-items: center;
+    transform: translateX(47px);
+    cursor: pointer;
+}
+
+.contato .cont-info .botao a {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 18px 70px;
+    background: #5B917C;
+    color: #ffffff;
+    border-radius: 21px;
+}
+
+.contato .cont-info .botao a:active {
+    background: #ffffff;
+    color: #5B917C;
+}
