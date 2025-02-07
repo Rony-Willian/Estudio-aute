@@ -174,7 +174,7 @@ body {
 
 
 .foto {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 1280px;
     height: 420px;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ body {
 
 .album-2 {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 80px;
     gap: 10px;
 }
@@ -196,8 +196,8 @@ body {
     border-radius: 45px;
     background-image: url(../images/logo-prensado.jpg);
     background-repeat: no-repeat;
-    background-position-x: -325px;
-    background-size: 1029px;
+    background-position-x: -345px;
+    background-size: 1129px;
 }
 
 .album-2 .img-right {
@@ -261,7 +261,7 @@ body {
     height: 490px;
     border-radius: 40px;
     margin-left: 170px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .contato .cont-info {
