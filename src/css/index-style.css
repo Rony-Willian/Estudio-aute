@@ -13,24 +13,22 @@
     src: url(../fonts/fonnts.com-DegularDemo-Bold.otf);
 }
 
-html {
+body {
     font-family: 'DegularDemo';
-    background: #1B1B1B;
     color: #ffffff;
-    /* display: flex;
-    justify-content: center; */
+    background: #1B1B1B;
 }
 
 
 
 .menu {
     display: flex;
-    margin-top: 78px;
-    margin-left: 80px;
+    margin-top: 60px;
+    margin-left: 170px;
 }
 
 .menu .logo {
-    width: 170px;
+    width: 140px;
 }
 
 .menu .logo img {
@@ -42,13 +40,13 @@ html {
 }
 
 .menu .option li {
-    padding-left: 164px;
+    padding-left: 100px;
 }
 
 .menu .option li a {
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -60,51 +58,49 @@ html {
 
 
 .home {
-    margin-top: 150px;
     display: flex;
-    margin-left: 80px;
+    margin-top: 100px;
+    margin-left: 170px;
 }
 
 .home .empresas a {
-    font-size: 36px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 300;
     color: #ffffff;
     display: flex;
     flex-direction: column;
 }
 
 .home .info-principal {
-    padding-left: 150px;
+    padding-left: 130px;
 }
 
 .home .info-principal h1 {
-    font-size: 96px;
+    font-size: 74px;
     font-weight: 400;
-    line-height: 96px;
-    width: 863px;
-    
+    line-height: 74px;
+    width: 665px;
 }
 
 .home .info-principal p {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 32px;
-    width: 580px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 450px;
     padding-top: 20px;
 }
 
 .home .empresas .fa-arrow-down {
-    font-size: 52.5px;
-    margin-top: 70px;
+    font-size: 50px;
+    margin-top: 50px;
     transform: rotate(-45deg);
 }
 
 
 
 .nossos-cases {
-    width: 1300px;
     padding-top: 120px;
-    margin-left: 80px;
+    margin-left: 170px;
 }
 
 .nossos-cases .title-2 {
@@ -113,24 +109,23 @@ html {
 
 .nossos-cases .title-2 h2 {
     display: flex;
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 400;
-    line-height: 70px;
-    text-transform: uppercase;
-    width: 595px;
-    border-bottom: 2px solid #ffffff;
-    padding-bottom: 10px;
-    padding-right: 110px;
+    line-height: 60px;
+    width: 400px;
+    padding-bottom: 5px;
+    padding-right: 70px;
     margin-bottom: 30px;
-
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
 }
 
 .nossos-cases .title-2 .fa-arrow-circle-down {
-    font-size: 49.35px;
-    height: 49.35px;
+    font-size: 38px;
+    height: 38px;
     color: #305973;
     background: #ffffff;
-    transform: translate(-55px, 85px);
+    transform: translate(-45px, 80px);
     border-radius: 50%;
 }
 
@@ -143,43 +138,39 @@ html {
 }
 
 .case img {
-    width: 966px;
-    height: 717px;
-    border-radius: 38px;
-}
-
-.case img {
-    width: 100%;
+    width: 753px;
+    height: 559px;
+    border-radius: 30px;
 }
 
 .case .info {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .case .info p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 26.52px;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 
 .case .info h3{
-    font-size: 48px;
-    font-weight: 300;
-    line-height: 50px;
-    margin-top: 20px;
+    font-size: 35px;
+    width: 220px;
+    line-height: 40px;
+    margin-top: 15px;
 }
 
 .case .info .fa-circle-arrow-right {
     align-self: flex-start;
     margin-top: auto;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     color: #305973;
     background-color: #ffffff;
     border-radius: 50%;
-    font-size: 49.35px;
+    font-size: 43px;
     cursor: pointer;
 }
 
@@ -199,47 +190,47 @@ html {
 .roda-pe {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 80px;
-    width: 1331px;
-    font-size: 20px;
     border-top: 1px solid #ffffff;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 1031px;
+    font-size: 20px;
     padding-top: 20px;
-    margin-left: 80px;
+    margin-left: 170px;
 }
 
 .roda-pe p {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 31.82px;
-    width: 580px;
+    line-height: 24px;
+    width: 500px;
     color: #7B7B7B;
 }
 
 .roda-pe span { 
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
+    width: 345px;
     line-height: 31.82px;
-    width: 415px;
     color: #7B7B7B;
 }
 
 
 
 .metodologia {
-    margin-left: 80px;
+    margin-left: 170px;
 }
 
 .metodologia h4 {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 47.74px;
-    width: 542px;
-    margin-top: 100px;
     text-transform: uppercase;
     border-bottom: 2px solid #ffffff;
     padding-bottom: 8px;
-    margin-bottom: 100px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.74px;
+    width: 382px;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 .metodologia .info-metod {
@@ -252,55 +243,55 @@ html {
 
 .metodologia .itens .title h3 {
     display: flex;
-    width: 931px;
-    font-size: 48px;
-    font-weight: 600;
     text-transform: uppercase;
     border-bottom: 2px solid #ffffff;
+    width: 631px;
+    font-size: 37px;
+    font-weight: 600;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding-right: 120px;
     padding-bottom: 4px;
 }
 
 .metodologia .title .fa-circle-arrow-down {
-    font-size: 44px;
-    height: 44px;
     color: #5B917C;
     background: #ffffff;
     border-radius: 50%;
-    transform: translate(-43px, 50px);
+    font-size: 34px;
+    height: 34px;
+    transform: translate(-43px, 40px);
 }
 
 .metodologia .itens p {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 42.43px;
-    width: 1040px;
+    line-height: 32.43px;
+    width: 780px;
 }
 
 
 
 .foto {
-    margin-top: 200px;
-    width: 1728px;
-    height: 566px;
+    margin-top: 150px;
+    width: 1280px;
+    height: 420px;
     background-repeat: no-repeat;
     background-image: url(../images/9307bccdf5d3969e95bb5c23f3a2dda3.jpg);
-    background-position-y: -125px;
-    background-size: 1728px;
+    background-position-y: -90px;
+    background-size: 1280px;
 }
 
 
 
 .inicio {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-left: 80px;
+    margin-top: 170px;
+    margin-bottom: 100px;
+    margin-left: 170px;
 }
 
 .inicio .anos p {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 42.46px;
     color: #7B7B7B;
@@ -311,13 +302,13 @@ html {
 }
 
 .inicio .tempo p {
-    font-size: 220px;
     font-weight: 700;
-    margin-bottom: -70px;
+    font-size: 171px;
+    margin-bottom: -55px;
 }
 
 .inicio .tempo span {
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -326,12 +317,12 @@ html {
 }
 
 .inicio .info-inicio .texto {
-    width: 672.5px;
-    font-size: 28px;
+    width: 504.5px;
+    font-size: 21px;
     font-weight: 400;
-    line-height: 42.46px;
-    padding-left: 200px;
-    padding-top: 90px;
+    line-height: 32.46px;
+    padding-left: 100px;
+    padding-top: 60px;
 }
 
 
@@ -340,35 +331,35 @@ html {
     display: flex;
     justify-content: center;
     background: #1F2225;
-    width: 1368px;
-    height: 699px;
-    border-radius: 55px;
-    margin-bottom: 100px;
-    margin-left: 80px;
+    width: 950px;
+    height: 490px;
+    border-radius: 40px;
+    margin-left: 170px;
+    margin-bottom: 200px;
 }
 
 .contato .cont-info {
     display: flex;
-    padding: 67px 67px 25px 67px;
+    padding: 53px 53px 15px 53px;
     color: #ffffff;
     flex-flow: column wrap;
 }
 
 .contato .cont-info .chamada img {
-    width: 126px;
+    width: 98px;
 }
 
 .contato .cont-info .chamada p{
-    font-size: 90px;
+    font-size: 62px;
     font-weight: 400;
-    line-height: 90px;
-    width: 786px;
-    padding-top: 50px;
+    line-height: 40px;
+    width: 530px;
+    padding-top: 30px;
 }
 
 .contato .cont-info .chamada p span {
     font-family: 'DegularDemo BoldItalic';
-    font-size: 90px;
+    font-size: 62px;
     font-weight: 700;
     line-height: 90px;
 } 
@@ -376,82 +367,87 @@ html {
 .contato .cont-info .elen-contato {
     display: flex;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 55px;
 }
 
 .contato .cont-info .elen-contato .img {
-    width: 98px;
-    height: 98px;
+    width: 68px;
+    height: 68px;
     background-image: url(../images/a15b5389756152a40b1a578d7c774e96.jpg);
     background-repeat: no-repeat;
-    background-position-y: -10px;
-    background-position-x: -28px;
-    background-size: 130px;
+    background-position-y: -6px;
+    background-position-x: -15px;
+    background-size: 85px;
     border-radius: 50%;
 }
 
 .contato .cont-info .elen-contato a {
     color: #ffffff;
-    font-size: 48px;
+    font-size: 31px;
     font-weight: 400;
-    line-height: 48px;
-    margin-left: 20px;
+    line-height: 30px;
+    margin-left: 15px;
     margin-bottom: 15px;
-    border-bottom: 3px solid #ffffff;
-    width: 370px;
+    border-bottom: 2px solid #ffffff;
+    width: 240px;
 }
 
 .contato .cont-info span {
-    font-size: 15px;
     font-weight: 300;
-    padding-top: 130px;
+    font-size: 10px;
+    padding-top: 90px;
 }
 
 .contato .cont-info .email {
     width: 292px;
-    margin-top: 110px;
-    margin-left: 86px;
+    margin-top: 90px;
+    margin-left: 40px;
 }
 
 .contato .cont-info .email p {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
-    line-height: 24px;
+    line-height: 15px;
     padding-bottom: 5px;
     border-bottom: 1px solid #ffffff;
-    width: 117px;
+    width: 80px;
     margin-bottom: 10px;
 }
 
 .contato .cont-info .email a {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 200;
-    line-height: 24px;
+    padding-top: 5px;
 }
 
 .contato .cont-info .botao {
-    margin-top: 190px;
-    margin-left: 60px;
+    margin-top: 130px;
+    margin-left: 15px;
 }
 
 .contato .cont-info .botao .fa-circle-arrow-right {
-    font-size: 26px;
+    font-size: 17px;
     align-items: center;
-    transform: translateX(47px);
+    transform: translateX(35px);
     cursor: pointer;
 }
 
 .contato .cont-info .botao a {
-    font-size: 32px;
+    font-size: 20px;
+    padding: 14px 54px;
+    border-radius: 17px;
     text-transform: uppercase;
-    padding: 18px 70px;
     background: #5B917C;
     color: #ffffff;
-    border-radius: 21px;
 }
 
 .contato .cont-info .botao a:active {
     background: #ffffff;
     color: #5B917C;
+}
+
+.contato .cont-info .botao:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
